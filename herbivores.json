@@ -1,0 +1,19 @@
+{
+    "herbivore" : [
+        {
+            "type": "Giraffe"
+        },
+        {
+            "type": "Sheep"
+        },
+        {
+            "type": "Horse"
+        },
+        {
+            "type": "Koala"
+        },
+        {
+            "type": "Elk"
+        }
+    ]
+}
