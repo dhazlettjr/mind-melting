@@ -1,20 +1,21 @@
 'use strict';
 
-const animal = require("./animals");
+const animals = require("./animals");
 
-let carnivoresBox = document.getElementById("carnivores");
-let herbivoresBox = document.getElementById("herbivores");
+let carnivores = document.getElementById("carnivores");
+let herbivores = document.getElementById("herbivores");
 
-function showCarnivores(animals) {
+function showCarnivores(data) {
   // code that takes the carnovores array and displays it to the DOM
-carnivoresBox.innerHTML = carnivores;
-console.log(showCarnivores);
-}
-
-
-function showHerbivores(animals) {
+data.forEach (element => {carnivores.innerHTML += `<div>${element}</div>`;});
 
 }
+
+
+function showHerbivores(data) {
+data.forEach(element => {herbivores.innherHTML += `<div>${element}</div>`;});
+}
+console.log(carnivores);
 
 animals.loadCarnivores(showCarnivores);
 animals.loadHerbivores(showHerbivores);
