@@ -1,0 +1,19 @@
+{
+    "carnivores" : [
+        {
+            "type": "Lion"
+        },
+        {
+            "type": "Tiger"
+        },
+        {
+            "type": "Hyena"
+        },
+        {
+            "type": "Lynx"
+        },
+        {
+            "type": "Mongoose"
+        }
+    ]
+}
